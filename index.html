@@ -15,20 +15,30 @@
     html, body {
       height: 100%;
       overflow: hidden;
-      background: #fff;
+      background: #1a1a1a;
     }
     body {
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
+      gap: 2rem;
     }
     img {
       width: min(70vw, 70vh, 480px);
       height: auto;
     }
+    p {
+      font-family: 'Courier New', Courier, monospace;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      color: #d4d4d4;
+      font-size: clamp(0.7rem, 1.5vw, 1rem);
+    }
   </style>
 </head>
 <body>
   <img src="logo.png" alt="Anti-Fun Coalition">
+  <p>Committed to dissatisfaction</p>
 </body>
 </html>
